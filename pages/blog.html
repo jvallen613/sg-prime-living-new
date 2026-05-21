@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — SG Prime Living</title>
+  <meta name="description" content="Real estate tips, market insights, and buying guides from SG Prime Living."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="../css/styles.css"/>
+</head>
+<body>
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="../index.html" class="nav-logo"><div class="nav-logo-icon"><svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9" fill="white" opacity=".4"/></svg></div><div class="nav-logo-text"><span class="brand">SG Prime Living</span><span class="sub">Real Estate · Cebu</span></div></a>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li><li><a href="properties.html">Properties</a></li>
+      <li><a href="about.html">About</a></li><li><a href="blog.html" class="nav-active">Blog</a></li>
+      <li><a href="vlogs.html">Vlogs</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-outline" style="padding:10px 20px;font-size:0.82rem">💬 Message Now</a>
+      <button id="navInquireBtn" class="btn btn-rose" style="padding:10px 20px;font-size:0.82rem">Ask AI ✨</button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="../index.html">Home</a><a href="properties.html">Properties</a><a href="about.html">About</a><a href="blog.html">Blog</a><a href="vlogs.html">Vlogs</a><a href="contact.html">Contact</a>
+  <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-rose" style="width:fit-content;margin-top:16px">💬 Message Now</a>
+</div>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="section-label">Latest Posts</span>
+    <h1>Real Estate Blog</h1>
+    <p>Tips, market insights, and guides to help you make smart property decisions in Cebu.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div id="blogGrid" class="blog-grid">
+      <div class="property-loading"><div class="spinner"></div><p>Loading blog posts…</p></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <p>&copy; 2025 SG Prime Living. All rights reserved.</p>
+      <div class="footer-bottom-links"><a href="../index.html">Home</a><a href="contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-actions">
+  <div class="fab-wrapper"><span class="fab-label">Chat with Maya AI</span><button class="fab fab-ai" id="fabAI"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/></svg></button></div>
+  <div class="fab-wrapper"><span class="fab-label">Message on Messenger</span><a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="fab fab-messenger"><svg viewBox="0 0 24 24" fill="white"><path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.929 1.435 5.545 3.68 7.27V22l3.352-1.844C10.006 20.38 10.979 20.5 12 20.5c5.523 0 10-4.145 10-9.257C22 6.145 17.523 2 12 2zm1.024 12.48l-2.548-2.72-4.972 2.72 5.472-5.808 2.609 2.72 4.91-2.72-5.471 5.808z"/></svg></a></div>
+</div>
+<div class="ai-chat-panel" id="aiChatPanel">
+  <div class="ai-chat-header"><div class="ai-chat-header-left"><div class="ai-avatar"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M12 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 12c-5.33 0-8 2.67-8 4v2h16v-2c0-1.33-2.67-4-8-4z"/></svg></div><div><h4>Maya</h4><p>SG Prime Living Assistant 🏡</p></div></div><button class="ai-close" id="aiClose">✕</button></div>
+  <div class="ai-messages" id="aiMessages"></div>
+  <div class="ai-quick-btns"><button class="ai-quick-btn" data-msg="What properties are available?">🏠 Properties</button><button class="ai-quick-btn" data-msg="I'd like to book a site viewing">📅 Book viewing</button></div>
+  <div class="ai-input-area"><input type="text" class="ai-input" id="aiInput" placeholder="Ask about properties…"/><button class="ai-send" id="aiSend"><svg viewBox="0 0 24 24" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg></button></div>
+</div>
+<script src="../js/main.js"></script>
+<script src="../js/blog.js"></script>
+</body>
+</html>

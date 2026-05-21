@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SG Prime Living — Real Estate in Cebu, Philippines</title>
+  <meta name="description" content="Find your dream home in Cebu with SG Prime Living. Browse condos, houses, and lots for sale. Trusted real estate agent Shervyn S. Bacus."/>
+  <meta property="og:title" content="SG Prime Living — Real Estate in Cebu"/>
+  <meta property="og:description" content="Premium real estate listings in Cebu, Philippines."/>
+  <meta property="og:type" content="website"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9" fill="white" opacity=".4"/></svg>
+      </div>
+      <div class="nav-logo-text">
+        <span class="brand">SG Prime Living</span>
+        <span class="sub">Real Estate · Cebu</span>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-active">Home</a></li>
+      <li><a href="pages/properties.html">Properties</a></li>
+      <li><a href="pages/about.html">About</a></li>
+      <li><a href="pages/blog.html">Blog</a></li>
+      <li><a href="pages/vlogs.html">Vlogs</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-outline" style="padding:10px 20px;font-size:0.82rem">💬 Message Now</a>
+      <button id="navInquireBtn" class="btn btn-rose" style="padding:10px 20px;font-size:0.82rem">Ask AI ✨</button>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a>
+  <a href="pages/properties.html">Properties</a>
+  <a href="pages/about.html">About</a>
+  <a href="pages/blog.html">Blog</a>
+  <a href="pages/vlogs.html">Vlogs</a>
+  <a href="pages/contact.html">Contact</a>
+  <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-rose" style="width:fit-content;margin-top:16px">💬 Message Now</a>
+</div>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-bg"><div class="hero-bg-shape"></div></div>
+  <div class="container hero-grid">
+    <div class="hero-content">
+      <div class="hero-badge fade-up"><span></span> Cebu's Trusted Real Estate Partner</div>
+      <h1 class="hero-title fade-up fade-up-delay-1">Ready For Your<br><em>First Home?</em></h1>
+      <p class="hero-subtitle fade-up fade-up-delay-2">Let's make it happen — together. We help you find the perfect property in Cebu at the right price and the right time.</p>
+      <div class="hero-actions fade-up fade-up-delay-3">
+        <a href="pages/properties.html" class="btn btn-primary">Browse Properties</a>
+        <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-outline">💬 Message Now</a>
+      </div>
+      <div class="hero-stats fade-up fade-up-delay-3">
+        <div><div class="hero-stat-num">200+</div><div class="hero-stat-label">Properties Sold</div></div>
+        <div><div class="hero-stat-num">98%</div><div class="hero-stat-label">Happy Clients</div></div>
+        <div><div class="hero-stat-num">8+</div><div class="hero-stat-label">Years Experience</div></div>
+      </div>
+    </div>
+    <div class="hero-visual fade-up fade-up-delay-2">
+      <div class="hero-img-wrap">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=85" alt="Beautiful home in Cebu"/>
+      </div>
+      <div class="hero-badge-card">
+        <div class="hero-badge-card-icon">
+          <svg viewBox="0 0 24 24" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <div class="hero-badge-card-text">
+          <div class="label">New Listing</div>
+          <div class="value">Casa Verde, Talisay</div>
+        </div>
+      </div>
+      <div class="hero-tag"><div class="tag-num">50+</div><div class="tag-text">Active Listings</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <span class="marquee-item"><span class="marquee-dot"></span>Condominiums</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>House &amp; Lot</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Lot Only</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Townhouse</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Commercial</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Cebu City</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Talisay</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Mandaue</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Lapu-Lapu</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Minglanilla</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Condominiums</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>House &amp; Lot</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Lot Only</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Townhouse</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Commercial</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Cebu City</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Talisay</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Mandaue</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Lapu-Lapu</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Minglanilla</span>
+  </div>
+</div>
+
+<!-- ===== FEATURED PROPERTIES ===== -->
+<section class="section" id="featured">
+  <div class="container">
+    <div class="section-header fade-up">
+      <span class="section-label">Handpicked For You</span>
+      <h2>Featured Properties</h2>
+      <p style="color:var(--muted);margin-top:12px;font-size:0.95rem;line-height:1.7">Our top picks across Cebu — curated for quality, value, and location.</p>
+    </div>
+    <div class="properties-grid" id="featuredGrid">
+      <div class="property-loading"><div class="spinner"></div><p>Loading featured properties…</p></div>
+    </div>
+    <div style="text-align:center;margin-top:44px">
+      <a href="pages/properties.html" class="btn btn-outline">View All Properties →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="section" id="why" style="background:white">
+  <div class="container">
+    <div class="section-header centered fade-up">
+      <span class="section-label">Why SG Prime Living</span>
+      <h2>The Smart Way to Buy Property in Cebu</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px">
+      <div class="about-value fade-up" style="padding:32px">
+        <div class="about-value-icon"><svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h4>Verified Listings</h4>
+        <p>Every property is personally verified. No duplicates, no scams — only legitimate, investment-ready listings.</p>
+      </div>
+      <div class="about-value fade-up fade-up-delay-1" style="padding:32px">
+        <div class="about-value-icon"><svg viewBox="0 0 24 24" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <h4>Fast Response</h4>
+        <p>Message us anytime. We respond quickly and can arrange site viewings at your convenience.</p>
+      </div>
+      <div class="about-value fade-up fade-up-delay-2" style="padding:32px">
+        <div class="about-value-icon"><svg viewBox="0 0 24 24" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h4>Personal Guidance</h4>
+        <p>We walk you through every step — from viewing to turnover — making the process stress-free.</p>
+      </div>
+      <div class="about-value fade-up fade-up-delay-3" style="padding:32px">
+        <div class="about-value-icon"><svg viewBox="0 0 24 24" stroke-width="1.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h4>Best Value</h4>
+        <p>We negotiate on your behalf to get you the best deal. Our clients consistently save time and money.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT / AGENT CAROUSEL ===== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header centered fade-up">
+      <span class="section-label">Meet the Team</span>
+      <h2>Your Trusted Agents</h2>
+    </div>
+    <div class="agent-carousel-wrap fade-up">
+      <button class="agent-carousel-btn agent-prev" onclick="prevAgent()" aria-label="Previous agent">
+        <svg viewBox="0 0 24 24" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <div class="agent-carousel" id="agentCarousel"><!-- JS --></div>
+      <button class="agent-carousel-btn agent-next" onclick="nextAgent()" aria-label="Next agent">
+        <svg viewBox="0 0 24 24" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+    <div class="agent-dots" id="agentDots"></div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section testimonials-section" id="testimonials">
+  <div class="container">
+    <div class="section-header centered fade-up">
+      <span class="section-label">Client Stories</span>
+      <h2>What Our Clients Say</h2>
+      <p style="color:rgba(255,255,255,0.55);margin-top:12px;font-size:0.95rem">Real reviews from real homeowners and investors.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card fade-up">
+        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+        <p class="testimonial-text">"Shervyn helped me find my first condo unit in Cebu City. She was patient, very knowledgeable, and made the whole process easy. Dako kaayo akong pasalamat!"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">M</div>
+          <div><div class="testimonial-name">Maria Santos</div><div class="testimonial-sub">First-time Buyer · Cebu City</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up fade-up-delay-1">
+        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+        <p class="testimonial-text">"As an OFW, I was worried about investing from abroad. Shervyn handled everything remotely — video tours, documentation, and turnover. Highly recommend SG Prime Living!"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">R</div>
+          <div><div class="testimonial-name">Rodel Fernandez</div><div class="testimonial-sub">OFW Investor · Dubai</div></div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up fade-up-delay-2">
+        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+        <p class="testimonial-text">"We bought a house and lot in Talisay through Shervyn. The process took less than 2 months! She guided us through the bank financing. Sobrang helpful!"</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">A</div>
+          <div><div class="testimonial-name">Ana &amp; Carlo Reyes</div><div class="testimonial-sub">Homebuyers · Talisay City</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-header centered fade-up">
+      <span class="section-label">Got Questions?</span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list fade-up">
+      <div class="faq-item">
+        <button class="faq-question">What areas in Cebu do you cover?<div class="faq-icon"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></button>
+        <div class="faq-answer"><p>We cover all of Metro Cebu including Cebu City, Talisay, Mandaue, Lapu-Lapu (Mactan), Consolacion, Minglanilla, and surrounding areas.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can I buy a property as an OFW or foreigner?<div class="faq-icon"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></button>
+        <div class="faq-answer"><p>Yes! OFWs and Filipino citizens can purchase any property type. Foreign nationals may buy condominium units. We handle all documentation and support remote transactions with virtual tours and e-signing.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">What payment options are available?<div class="faq-icon"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></button>
+        <div class="faq-answer"><p>We assist with Bank Financing (Pag-IBIG, BDO, BPI, Metrobank), In-house Installment, Spot Cash with discounts, and OFW loans. We'll help you find the best option.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I schedule a property viewing?<div class="faq-icon"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></button>
+        <div class="faq-answer"><p>Message us on Messenger or use our AI assistant. We can arrange same-day or next-day visits, or virtual video tours for remote buyers.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Are there any agent fees for buyers?<div class="faq-icon"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div></button>
+        <div class="faq-answer"><p>Our services are completely FREE for buyers! We are compensated by the developer or seller. Full professional assistance at no extra cost to you.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="nav-logo" style="margin-bottom:0">
+          <div class="nav-logo-icon"><svg viewBox="0 0 24 24"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9" fill="white" opacity=".4"/></svg></div>
+          <div class="nav-logo-text"><span class="brand" style="color:white">SG Prime Living</span><span class="sub">Real Estate · Cebu</span></div>
+        </div>
+        <p class="footer-brand-desc">Your trusted real estate partner in Cebu. We help families and investors find the right property at the right price.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/SGPrimeLiving" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" aria-label="Messenger"><svg viewBox="0 0 24 24" fill="rgba(255,255,255,0.8)"><path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.929 1.435 5.545 3.68 7.27V22l3.352-1.844C10.006 20.38 10.979 20.5 12 20.5c5.523 0 10-4.145 10-9.257C22 6.145 17.523 2 12 2zm1.024 12.48l-2.548-2.72-4.972 2.72 5.472-5.808 2.609 2.72 4.91-2.72-5.471 5.808z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-heading">Pages</div>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/properties.html">Properties</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/blog.html">Blog</a></li>
+          <li><a href="pages/vlogs.html">Vlogs</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Property Types</div>
+        <ul class="footer-links">
+          <li><a href="pages/properties.html">Condominiums</a></li>
+          <li><a href="pages/properties.html">House &amp; Lot</a></li>
+          <li><a href="pages/properties.html">Lot Only</a></li>
+          <li><a href="pages/properties.html">Townhouse</a></li>
+          <li><a href="pages/properties.html">Commercial</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-heading">Contact</div>
+        <ul class="footer-links">
+          <li><a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener">Message on Messenger</a></li>
+          <li><a href="mailto:Sgprimeliving@gmail.com">Sgprimeliving@gmail.com</a></li>
+          <li><span>Cebu, Philippines</span></li>
+        </ul>
+        <div style="margin-top:20px"><a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-rose" style="padding:12px 20px;font-size:0.82rem">💬 Message Now</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 SG Prime Living. All rights reserved. | Shervyn S. Bacus, Real Estate Agent</p>
+      <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== PROPERTY MODAL ===== -->
+<div class="modal-overlay" id="propertyModal">
+  <div class="modal">
+    <div class="modal-gallery" id="modalGallery"></div>
+    <button class="modal-close" onclick="closeModal()" aria-label="Close">
+      <svg viewBox="0 0 24 24" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div class="modal-body">
+      <div class="modal-meta"><span class="modal-type-badge" id="modalType">For Sale</span></div>
+      <h2 class="modal-title" id="modalTitle"></h2>
+      <div class="modal-location" id="modalLocation"></div>
+      <div class="modal-price-row"><div class="modal-price" id="modalPrice"></div></div>
+      <div class="modal-features-bar" id="modalFeatures"></div>
+      <div class="modal-desc" id="modalDesc"></div>
+      <div class="modal-amenities" id="modalAmenities">
+        <h4>Amenities &amp; Features</h4>
+        <div class="amenities-grid" id="modalAmenitiesGrid"></div>
+      </div>
+      <div class="modal-extra-fields" id="modalExtraFields"></div>
+      <div class="modal-cta">
+        <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="btn btn-rose">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="white"><path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.929 1.435 5.545 3.68 7.27V22l3.352-1.844C10.006 20.38 10.979 20.5 12 20.5c5.523 0 10-4.145 10-9.257C22 6.145 17.523 2 12 2z"/></svg>
+          Message on Messenger
+        </a>
+        <button class="btn btn-outline" onclick="closeModal();openAIChat()">
+          ✨ Ask AI Assistant
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FLOATING BUTTONS ===== -->
+<div class="floating-actions">
+  <div class="fab-wrapper">
+    <span class="fab-label">Chat with Maya AI</span>
+    <button class="fab fab-ai" id="fabAI" aria-label="AI Chat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="9" cy="10" r="1" fill="white"/><circle cx="12" cy="10" r="1" fill="white"/><circle cx="15" cy="10" r="1" fill="white"/></svg>
+    </button>
+  </div>
+  <div class="fab-wrapper">
+    <span class="fab-label">Message on Messenger</span>
+    <a href="https://m.me/SGPrimeLiving" target="_blank" rel="noopener" class="fab fab-messenger" aria-label="Messenger">
+      <svg viewBox="0 0 24 24" fill="white"><path d="M12 2C6.477 2 2 6.145 2 11.243c0 2.929 1.435 5.545 3.68 7.27V22l3.352-1.844C10.006 20.38 10.979 20.5 12 20.5c5.523 0 10-4.145 10-9.257C22 6.145 17.523 2 12 2zm1.024 12.48l-2.548-2.72-4.972 2.72 5.472-5.808 2.609 2.72 4.91-2.72-5.471 5.808z"/></svg>
+    </a>
+  </div>
+</div>
+
+<!-- ===== AI CHAT PANEL ===== -->
+<div class="ai-chat-panel" id="aiChatPanel">
+  <div class="ai-chat-header">
+    <div class="ai-chat-header-left">
+      <div class="ai-avatar"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M12 2a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 12c-5.33 0-8 2.67-8 4v2h16v-2c0-1.33-2.67-4-8-4z"/></svg></div>
+      <div><h4>Maya</h4><p>SG Prime Living Assistant 🏡</p></div>
+    </div>
+    <button class="ai-close" id="aiClose" aria-label="Close">✕</button>
+  </div>
+  <div class="ai-messages" id="aiMessages"></div>
+  <div class="ai-quick-btns">
+    <button class="ai-quick-btn" data-msg="What properties are available?">🏠 Available properties?</button>
+    <button class="ai-quick-btn" data-msg="I'd like to book a site viewing">📅 Book a viewing</button>
+    <button class="ai-quick-btn" data-msg="What financing options are available?">💰 Financing options</button>
+    <button class="ai-quick-btn" data-msg="What locations are available in Cebu?">📍 Cebu locations</button>
+  </div>
+  <div class="ai-input-area">
+    <input type="text" class="ai-input" id="aiInput" placeholder="Ask about properties…"/>
+    <button class="ai-send" id="aiSend" aria-label="Send">
+      <svg viewBox="0 0 24 24" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+    </button>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
